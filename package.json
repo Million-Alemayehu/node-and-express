@@ -2,5 +2,18 @@
   "dependencies": {
     "express": "^5.2.1",
     "express-handlebars": "^9.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
+    "jest": "^30.3.0",
+    "portfinder": "^1.0.38",
+    "puppeteer": "^24.42.0",
+    "typescript-eslint": "^8.59.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint meadowlark.js lib"
   }
 }
